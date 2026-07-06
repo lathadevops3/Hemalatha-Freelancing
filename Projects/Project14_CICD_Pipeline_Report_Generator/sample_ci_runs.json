@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "pipeline": "build-and-test",
+    "status": "success",
+    "duration_seconds": 120
+  },
+  {
+    "id": 2,
+    "pipeline": "build-and-test",
+    "status": "failure",
+    "duration_seconds": 180
+  },
+  {
+    "id": 3,
+    "pipeline": "deploy",
+    "status": "success",
+    "duration_seconds": 90
+  }
+]

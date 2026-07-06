@@ -1,0 +1,8 @@
+Subject: Automated Log Alert
+From: alerts@example.com
+To: admin@example.com
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+Found 1 errors in logs.

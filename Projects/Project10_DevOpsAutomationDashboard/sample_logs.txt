@@ -1,0 +1,5 @@
+2026-07-04 10:00:01 INFO Service started
+2026-07-04 10:01:20 ERROR Database connection failed
+2026-07-04 10:03:40 WARNING Disk space low
+2026-07-04 10:05:12 INFO User logged in
+2026-07-04 10:07:33 ERROR API timeout

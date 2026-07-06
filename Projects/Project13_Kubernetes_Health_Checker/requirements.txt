@@ -1,0 +1,1 @@
+# Requires `kubectl` installed on the system; no Python packages required
