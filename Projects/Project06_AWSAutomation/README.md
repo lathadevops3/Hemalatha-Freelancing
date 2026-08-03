@@ -1,38 +1,30 @@
-# Project 6 – AWS Automation
+# AWS Automation
 
-A menu-driven AWS automation tool for common cloud operations.
+## Description
+Automates AWS EC2 and S3 operations using boto3 with demo fallback for safe portfolio display.
+
+## Real-World Scenario
+Use this tool to manage cloud instances and storage with simple automation commands.
 
 ## Features
+- List EC2 instances and S3 buckets
+- Create buckets and upload files
+- Demo mode for environments without AWS credentials
 
-- List EC2 instances
-- Start EC2 instances
-- Stop EC2 instances
-- Create S3 buckets
-- Upload files to S3
+## Technologies Used
+- Python 3
+- boto3
 
-## Requirements
-
-- `boto3`
-- AWS credentials configured in `~/.aws/credentials` or environment variables
-
-## Usage
-
-1. Install dependencies:
-
+## How to Run
 ```bash
-pip install boto3
+python main.py --demo
 ```
 
-2. Run the tool:
+## Sample Input
+AWS credentials and a target bucket name for file upload.
 
-```bash
-python main.py
-```
+## Sample Output
+A log of EC2/S3 operations or a demo output file when credentials are unavailable.
 
-3. Follow the menu prompts.
-
-## Notes
-
-- This tool uses the default AWS profile.
-- Ensure your IAM user has EC2 and S3 permissions.
-- Update `REGION` in `main.py` if you need a different AWS region.
+## Screenshots
+- `screenshot.png`

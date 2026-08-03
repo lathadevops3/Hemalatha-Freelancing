@@ -1,32 +1,33 @@
-# System Metrics Streamer (RT05)
+# System Metrics Streamer
 
-Stream system CPU and memory metrics over WebSocket. Demo mode prints a few sample metrics to stdout.
+## Description
+Streams live CPU and memory metrics over WebSocket for real-time infrastructure monitoring.
 
-## Setup
-```
-pip install -r requirements.txt
-```
+## Real-World Scenario
+Use this tool for telemetry dashboards that display system health during load testing.
 
-## Run (demo)
-```
-python main.py --demo
-```
+## Features
+- Capture CPU and memory usage
+- Stream metrics live over WebSocket
+- Demo mode prints sample metric snapshots
 
-Screenshot: `screenshots/screenshot.png`
-# RT05 — Real-time System Metrics Streamer
+## Technologies Used
+- Python 3
+- psutil
+- websockets
+- asyncio
 
-Streams CPU and memory metrics; demo mode prints a few samples.
-
-Demo:
-
+## How to Run
 ```bash
 python main.py --demo
 ```
 
-Requirements:
+## Sample Input
+A local machine to monitor or demo mode for sample data.
 
-```bash
-pip install psutil websockets
-```
+## Sample Output
+A stream of system metric snapshots printed or broadcast in real time.
 
-Screenshots: `screenshots/screenshot.png`
+## Screenshots
+- `demo.gif`
+- `screenshot.png`

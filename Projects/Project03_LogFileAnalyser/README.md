@@ -1,32 +1,31 @@
-# Project 3 – Log File Analyzer
+# Log File Analyzer
 
-A DevOps-style project that reads application logs, counts message levels, and saves a summary.
+## Description
+Parses structured logs to extract errors, warnings, and summary statistics for faster incident review.
 
-## What it does
+## Real-World Scenario
+Use this project to analyze server or application logs and generate a concise operations report.
 
-- Reads `application.log`
-- Counts `INFO`, `WARNING`, and `ERROR` messages
-- Displays a summary in the console
-- Saves a summary CSV to `summary.csv`
-- Saves only error entries to `errors.txt`
-- Finds the most frequent error message
-- Supports filtering by date via the code
+## Features
+- Parse log files line by line
+- Extract errors and warnings
+- Produce summary CSV and error report files
 
-## Files
+## Technologies Used
+- Python 3
+- csv
+- datetime
 
-- `main.py` - log analyzer script
-- `application.log` - sample log file
-- `summary.csv` - generated summary report
-- `errors.txt` - extracted error entries
-- `README.md` - project documentation
-
-## Usage
-
+## How to Run
 ```bash
-python main.py
+python main.py --demo
 ```
 
-## Notes
+## Sample Input
+A log file with timestamps, severity levels, and event messages.
 
-- The script parses log lines in the format `YYYY-MM-DD HH:MM:SS LEVEL message`.
-- Add your own `application.log` content and rerun `main.py`.
+## Sample Output
+A summary CSV and text file with extracted error entries.
+
+## Screenshots
+- `screenshot.png`

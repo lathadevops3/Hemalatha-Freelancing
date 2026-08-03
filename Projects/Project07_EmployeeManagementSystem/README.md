@@ -1,49 +1,33 @@
-# Project 7 – Employee Management System
+# Employee Management System
 
-A freelance-ready employee management system with:
+## Description
+A simple SQLite-based employee tracker with reporting and export capabilities.
 
-- CRUD operations using SQLite
-- Search and filter employees
-- Department summaries
-- Excel report export
+## Real-World Scenario
+Use this system for small HR record keeping, employee tracking, and exportable reports.
 
-## Files
+## Features
+- Add and edit employee records
+- Generate Excel reports
+- View employee lists and summaries
 
-- `main.py` - employee management script
-- `employees.db` - SQLite database created automatically
-- `employee_report.xlsx` - generated employee report
-- `README.md` - project documentation
-- `screenshots/employee_list.png` - screenshot of employee list output
+## Technologies Used
+- Python 3
+- sqlite3
+- pandas
+- openpyxl
 
-## What it does
-
-- Creates and manages employee records
-- Updates employee details
-- Deletes employee records
-- Searches employees by department, name, or title
-- Exports employee data to Excel
-- Generates department summary analytics
-
-## Usage
-
-1. Install dependencies:
-
+## How to Run
 ```bash
-pip install pandas openpyxl
+python main.py --demo
 ```
 
-2. Run the project:
+## Sample Input
+Employee name, role, department, and hire date details.
 
-```bash
-python main.py
-```
-
-3. Open `employee_report.xlsx` to review exported employee data.
+## Sample Output
+An Excel report summarizing current employees.
 
 ## Screenshots
-
-![Employee List](screenshots/employee_list.png)
-
-## Notes
-
-This project is designed for freelancing portfolios and can be extended with a web dashboard, full CLI menu, or REST API.
+- `employee_list.png`
+- `README_PLACEHOLDER.txt`

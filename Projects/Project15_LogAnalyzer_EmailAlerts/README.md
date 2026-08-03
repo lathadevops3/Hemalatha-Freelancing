@@ -1,38 +1,32 @@
 # Log Analyzer with Email Alerts
 
-Parse logs, extract errors, and send email alerts (demo mode writes .eml files).
+## Description
+Detects errors in logs and generates alert-ready email files for incident response.
+
+## Real-World Scenario
+Use this project to create an alert workflow for logging systems and produce sample alert messages.
 
 ## Features
-- Parse large log files and summarize errors
-- Generate `.eml` alert files for review
+- Parse log files for errors
+- Generate error summaries
+- Create alert .eml files for review
 
-## Setup
-```
-pip install -r requirements.txt
-```
+## Technologies Used
+- Python 3
+- email
+- datetime
 
-## Run (demo)
-```
+## How to Run
+```bash
 python main.py --demo
 ```
 
-Demo screenshot: `screenshots/screenshot.png`
-# Project 15 – Log Analyzer with Email Alerts
+## Sample Input
+A log file containing error and warning entries.
 
-Parses application logs, extracts error entries, and creates an email alert (demo mode writes an .eml file).
-
-Files
-- `main.py` - demo script that writes `errors.txt` and `last_alert.eml`
-- `requirements.txt` - none (uses Python standard library)
-- `screenshots/` - placeholder folder
-
-Usage
-
-```bash
-python main.py
-```
+## Sample Output
+An alert summary text file and an .eml email draft.
 
 ## Screenshots
-
-![Log Analyzer with Email Alerts](screenshots/screenshot.png)
-
+- `demo.gif`
+- `screenshot.png`

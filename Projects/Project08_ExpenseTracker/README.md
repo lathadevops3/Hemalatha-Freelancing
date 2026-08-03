@@ -1,51 +1,33 @@
-# Project 8 – Expense Tracker
+# Expense Tracker
 
-A professional expense tracker project with real business value:
+## Description
+Tracks expenses and generates reports to help manage business spending and budgeting.
 
-- Add/Edit/Delete expense transactions
-- Monthly reports
-- Category-wise spend analytics
-- Excel export
-- Chart generation
-
-## Files
-
-- `main.py` - expense tracker script
-- `expenses.db` - SQLite database created automatically
-- `expense_report.xlsx` - generated expense report
-- `expense_category_chart.png` - category chart output
-- `README.md` - project documentation
-- `screenshots/expense_dashboard.png` - generated dashboard screenshot
+## Real-World Scenario
+Use this application to log expenses and review spending patterns with charts.
 
 ## Features
+- Record expense entries
+- Export expense reports to Excel
+- Generate category summaries and charts
 
-- Add expense records
-- Update and delete expenses
-- Monthly reporting
-- Category spend summary
-- Export full report to Excel
-- Generate category chart image
+## Technologies Used
+- Python 3
+- sqlite3
+- pandas
+- openpyxl
+- matplotlib
 
-## Usage
-
-1. Install dependencies:
-
+## How to Run
 ```bash
-pip install pandas openpyxl matplotlib
+python main.py --demo
 ```
 
-2. Run the project:
+## Sample Input
+Category, amount, date, and description for each expense.
 
-```bash
-python main.py
-```
-
-3. Open `expense_report.xlsx` and `expense_category_chart.png` to review the output.
+## Sample Output
+An expense report workbook plus a category chart image.
 
 ## Screenshots
-
-![Expense Tracker](screenshots/expense_dashboard.png)
-
-## Notes
-
-This project works well for small businesses and freelance bookkeeping tasks. You can extend it into a web or mobile reporting app.
+- `expense_dashboard.png`

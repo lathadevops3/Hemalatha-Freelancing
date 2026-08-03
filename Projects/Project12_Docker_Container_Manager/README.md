@@ -1,43 +1,32 @@
 # Docker Container Manager
 
-Simple wrappers around Docker CLI to list, run, and stop containers (demo-friendly).
+## Description
+Manages Docker containers from Python using CLI automation for container lifecycle tasks.
 
-**Features**
+## Real-World Scenario
+Use this tool to inspect containers, launch test containers, and stop running services.
+
+## Features
 - List running containers
-- Run a test container in demo mode
-- Stop containers by name or ID
+- Start and stop containers
+- Demo mode for environments without Docker
 
-**Demo screenshot**: `screenshots/screenshot.png`
-**Demo GIF**: `screenshots/demo.gif`
+## Technologies Used
+- Python 3
+- subprocess
+- Docker CLI
 
-## Setup
-1. Python 3.8+ recommended.
-2. Install requirements:
-```
-pip install -r requirements.txt
-```
-3. Requires Docker installed locally to run real commands. Use `--demo` to run a safe local demo.
-
-## Run (demo)
-```
-python main.py --demo
-```
-# Project 12 – Docker Container Manager
-
-Small utility to inspect and manage Docker containers from the command line.
-
-Files
-- `main.py` - script that lists, starts, and stops containers (uses `docker` CLI)
-- `requirements.txt` - empty (no Python deps required)
-- `screenshots/` - placeholder screenshots
-
-Usage
-
+## How to Run
 ```bash
 python main.py --demo
 ```
 
+## Sample Input
+A container image name and command to run.
+
+## Sample Output
+A container list or demo output showing sample lifecycle actions.
+
 ## Screenshots
-
-![Docker Container Manager](screenshots/screenshot.png)
-
+- `demo.gif`
+- `screenshot.png`

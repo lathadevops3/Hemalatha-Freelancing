@@ -1,40 +1,31 @@
-# Project 4 – PDF Toolkit
+# PDF Toolkit
 
-A PDF utility project that supports common workflow tasks:
+## Description
+Provides automation for PDF workflows including merge, split, rotate, and text extraction.
 
-- Merge PDFs
-- Split PDFs into single-page files
-- Rotate PDF pages
-- Extract PDF text to plain text files
+## Real-World Scenario
+Use this toolkit to manage document workflows such as combining proposals, splitting invoices, and extracting pages.
 
-## Files
+## Features
+- Merge multiple PDF files
+- Split PDFs by page range
+- Rotate pages and extract text
 
-- `main.py` - toolkit script
-- `README.md` - documentation
-- `output/` - generated PDF and text outputs
-- `samples/` - sample PDFs to use with the toolkit
+## Technologies Used
+- Python 3
+- PyPDF2
+- reportlab
 
-## Usage
-
-1. Install dependencies:
-
+## How to Run
 ```bash
-pip install PyPDF2
+python main.py --demo
 ```
 
-2. Add sample PDFs to `samples/`.
+## Sample Input
+A set of PDF files representing invoices, reports, or contracts.
 
-3. Update `main.py` to call the desired function.
+## Sample Output
+A merged PDF or extracted page set ready for review.
 
-4. Run:
-
-```bash
-python main.py
-```
-
-## Functions
-
-- `merge_pdfs(input_files, output_file)`
-- `split_pdf(input_file, output_dir)`
-- `rotate_pdf(input_file, output_file, rotation)`
-- `extract_text(input_file, output_file)`
+## Screenshots
+- `screenshot.png`

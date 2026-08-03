@@ -1,50 +1,32 @@
-# Project 10 – DevOps Automation Dashboard
+# DevOps Automation Dashboard
 
-A portfolio-ready DevOps automation dashboard for cloud and infrastructure monitoring.
+## Description
+Provides an overview of DevOps health by checking environment status and generating logs.
+
+## Real-World Scenario
+Use this dashboard to combine cloud, container, and log status checks into a single health summary.
 
 ## Features
+- Check AWS, Docker, and Kubernetes status
+- Analyze logs for alerts
+- Produce dashboard summary files
 
-- Start/Stop EC2 instances
-- List EC2 instances
-- Create S3 buckets
-- Upload files to S3
-- Docker container status
-- Kubernetes pod status
-- System health checks
-- Log analysis and alert reporting
+## Technologies Used
+- Python 3
+- boto3
+- subprocess
+- logging
 
-## Files
-
-- `main.py` - automation dashboard script
-- `sample_logs.txt` - sample log file for analysis
-- `alert_summary.txt` - generated log error summary
-- `README.md` - project documentation
-- `screenshots/dashboard_status.png` - generated output screenshot
-
-## Requirements
-
-- `boto3`
-- AWS credentials configured
-- Optional: Docker, kubectl installed for container/kubernetes checks
-
-## Usage
-
-1. Install dependencies:
-
-```bash
-pip install boto3
-```
-
-2. Run the demo:
-
+## How to Run
 ```bash
 python main.py --demo
 ```
 
+## Sample Input
+A local environment with AWS/Docker/Kubernetes or demo fallback simulated status.
+
+## Sample Output
+A dashboard status report and alert summary text file.
+
 ## Screenshots
-
-![DevOps Dashboard](screenshots/dashboard_status.png)
-
-## Notes
-
-This project is designed as a signature freelancing portfolio piece. It can be extended with a web dashboard, alert automation, and remediation workflows.
+- `dashboard_status.png`

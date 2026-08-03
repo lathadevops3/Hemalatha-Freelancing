@@ -1,39 +1,32 @@
 # CI/CD Pipeline Report Generator
 
-Generate Excel-based reports from pipeline run data (simulated demo data provided).
+## Description
+Produces Excel reports from build and deployment pipeline data for stakeholder review.
 
-**Features**
-- Create sample CI/CD run data
-- Generate `cicd_report.xlsx` with summaries and charts
+## Real-World Scenario
+Use this generator to turn pipeline metrics into a polished report for engineering leadership.
 
-**Demo screenshot**: `screenshots/screenshot.png`
-**Demo GIF**: `screenshots/demo.gif`
+## Features
+- Simulate pipeline run data
+- Generate Excel summary reports
+- Include pass/fail and duration metrics
 
-## Setup
-```
-pip install -r requirements.txt
-```
+## Technologies Used
+- Python 3
+- pandas
+- openpyxl
 
-## Run (demo)
-```
+## How to Run
+```bash
 python main.py --demo
 ```
-# Project 14 – CI/CD Pipeline Report Generator
 
-Parses CI pipeline run JSON and creates an Excel report with runs, summary, and timing metrics.
+## Sample Input
+A list of pipeline stages with status and duration values.
 
-Files
-- `main.py` - generates a sample `sample_ci_runs.json` and writes `cicd_report.xlsx`
-- `requirements.txt` - `pandas`, `openpyxl`
-- `screenshots/` - placeholder folder
-
-Usage
-
-```bash
-python main.py
-```
+## Sample Output
+A CI/CD report workbook with aggregated metrics.
 
 ## Screenshots
-
-![CI/CD Pipeline Report Generator](screenshots/screenshot.png)
-
+- `demo.gif`
+- `screenshot.png`

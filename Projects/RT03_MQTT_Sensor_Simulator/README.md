@@ -1,38 +1,31 @@
-# MQTT Sensor Simulator (RT03)
+# MQTT Sensor Simulator
 
-Simulate IoT sensor readings and publish to an MQTT broker. Demo mode writes `simulated_sensor.json` locally.
+## Description
+Simulates IoT sensor telemetry and publishes it to an MQTT broker for edge and cloud testing.
 
-## Setup
-```
-pip install -r requirements.txt
-```
+## Real-World Scenario
+Use this simulator to generate sensor data for smart home, industrial, or telemetry applications.
 
-## Run (demo)
-```
-python main.py --demo
-```
+## Features
+- Generate simulated temperature and humidity readings
+- Publish data to MQTT topics
+- Write demo telemetry JSON locally
 
-Screenshot: `screenshots/screenshot.png`
-# RT03 — MQTT Sensor Simulator
+## Technologies Used
+- Python 3
+- paho-mqtt
 
-Simulates sensor readings. In demo mode it writes `simulated_sensor.json`. Optionally publishes to an MQTT broker if `--broker` is provided.
-
-Demo:
-
+## How to Run
 ```bash
 python main.py --demo
 ```
 
-Publish to broker:
+## Sample Input
+An MQTT topic name or demo mode that writes local JSON output.
 
-```bash
-python main.py --broker test.mosquitto.org --topic sensors/demo
-```
+## Sample Output
+Simulated telemetry data saved to a JSON file or sent to MQTT.
 
-Requirements:
-
-```bash
-pip install paho-mqtt
-```
-
-Screenshots: `screenshots/screenshot.png`
+## Screenshots
+- `demo.gif`
+- `screenshot.png`

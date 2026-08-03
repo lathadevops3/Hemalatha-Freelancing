@@ -1,41 +1,32 @@
 # Kubernetes Health Checker
 
-Health-check utilities that wrap `kubectl` to report pod/node status and basic diagnostics.
+## Description
+Wraps kubectl health checks to report pod and cluster health clearly.
 
-**Features**
-- Fetch pod status and health
-- Summarize unhealthy pods
+## Real-World Scenario
+Use this project to monitor Kubernetes clusters and detect unhealthy pods quickly.
 
-**Demo screenshot**: `screenshots/screenshot.png`
-**Demo GIF**: `screenshots/demo.gif`
+## Features
+- Fetch pod status
+- Summarize cluster health
+- Demo mode when kubectl is unavailable
 
-## Setup
-1. Install `kubectl` and configure access to a cluster.
-2. Install the Python requirements:
-```
-pip install -r requirements.txt
-```
+## Technologies Used
+- Python 3
+- subprocess
+- kubectl
 
-## Run (demo)
-```
-python main.py --demo
-```
-# Project 13 – Kubernetes Health Checker
-
-Quick health-check tool that uses the `kubectl` CLI to inspect cluster nodes and pods.
-
-Files
-- `main.py` - run `kubectl get nodes` and `kubectl get pods --all-namespaces`
-- `requirements.txt` - none (relies on `kubectl` binary)
-- `screenshots/` - placeholder folder
-
-Usage
-
+## How to Run
 ```bash
 python main.py --demo
 ```
 
+## Sample Input
+A Kubernetes context and namespace to inspect.
+
+## Sample Output
+A health summary report and pod status output.
+
 ## Screenshots
-
-![Kubernetes Health Checker](screenshots/screenshot.png)
-
+- `demo.gif`
+- `screenshot.png`

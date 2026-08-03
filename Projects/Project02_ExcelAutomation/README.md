@@ -1,49 +1,31 @@
-# Excel Sales Report Generator
+# Excel Automation
 
-This project reads multiple sales Excel files and generates a unified summary report with:
+## Description
+Generates and updates structured Excel sales reports automatically from raw data.
 
-- Total sales
-- Average sales
-- Highest sale
-- Lowest sale
-- Sales by region
-- Sales by product
-- Monthly sales totals
+## Real-World Scenario
+Use this script to create daily or weekly sales summary spreadsheets that business users can review instantly.
 
-The program also saves the summary to `output.xlsx`.
+## Features
+- Create sample sales data
+- Generate formatted Excel reports
+- Save workbooks with totals and summaries
 
-## Files
+## Technologies Used
+- Python 3
+- pandas
+- openpyxl
 
-- `main.py` - the Python script that reads all `.xlsx` files found in `inputs/`, calculates the report, and writes `output.xlsx`
-- `inputs/` - folder containing sample sales input files
-- `output.xlsx` - generated summary report
-- `README.md` - project documentation
-- `requirements.txt` - required Python packages
-
-## Input file requirements
-
-Each input workbook must contain the following columns:
-
-- `Name`
-- `Sales`
-- `Region`
-- `Date`
-- `Product`
-
-## Usage
-
-1. Install dependencies:
-
+## How to Run
 ```bash
-pip install -r requirements.txt
+python main.py --demo
 ```
 
-2. Add or update Excel files in `inputs/`.
+## Sample Input
+A CSV or demo dataset with sales records and date fields.
 
-3. Run the report generator:
+## Sample Output
+An Excel file containing aggregated sales totals and formatted worksheets.
 
-```bash
-python main.py
-```
-
-4. Open `output.xlsx` to view the summary and detailed worksheets.
+## Screenshots
+- `screenshot.png`

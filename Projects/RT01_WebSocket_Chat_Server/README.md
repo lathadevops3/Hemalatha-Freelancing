@@ -1,43 +1,32 @@
-# WebSocket Chat Server (RT01)
+# WebSocket Chat Server
 
-Simple WebSocket chat server using `websockets` library. Demo mode runs a local server and prints sample messages.
+## Description
+A real-time WebSocket chat server demonstrating low-latency communication and message broadcast.
+
+## Real-World Scenario
+Use this demo to show live chat messaging for team collaboration or support systems.
 
 ## Features
-- Broadcast chat messages to connected clients
-- Demo mode shows sample messages without network access
+- Broadcast messages to connected clients
+- Support demo mode for local testing
+- Simple async WebSocket architecture
 
-## Setup
-```
-pip install -r requirements.txt
-```
+## Technologies Used
+- Python 3
+- websockets
+- asyncio
 
-## Run (demo)
-```
-python main.py --demo
-```
-
-Screenshot: `screenshots/screenshot.png`
-GIF: `screenshots/demo.gif`
-# RT01 — WebSocket Chat Server
-
-Minimal WebSocket chat server using the `websockets` library.
-
-Run demo (no external clients):
-
+## How to Run
 ```bash
 python main.py --demo
 ```
 
-Run server:
+## Sample Input
+Chat messages sent from connected WebSocket clients.
 
-```bash
-python main.py
-```
+## Sample Output
+Broadcasted chat logs printed in the console and supported by demo output.
 
-Requirements:
-
-```bash
-pip install websockets
-```
-
-Screenshots: `screenshots/screenshot.png`
+## Screenshots
+- `demo.gif`
+- `screenshot.png`

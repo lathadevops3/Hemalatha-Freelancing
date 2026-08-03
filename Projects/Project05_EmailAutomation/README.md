@@ -1,33 +1,30 @@
-# Project 5 – Email Automation
+# Email Automation
 
-A simple email automation project that demonstrates:
+## Description
+Builds automated email content and message previews for secure, repeatable communications.
 
-- Sending emails with attachments
-- HTML-formatted email bodies
-- Multiple recipients
+## Real-World Scenario
+Use this script to automate email generation for reporting, alerts, or scheduled notifications.
 
-## Files
+## Features
+- Compose email subject and body templates
+- Create .eml preview files
+- Support SMTP-ready message construction
 
-- `main.py` - email automation script
-- `README.md` - documentation
-- `attachments/` - folder for attachment files
+## Technologies Used
+- Python 3
+- email
 
-## Usage
-
-1. Install dependencies:
-
+## How to Run
 ```bash
-pip install secure-smtplib
+python main.py --demo
 ```
 
-2. Update `main.py` with your SMTP server settings.
+## Sample Input
+Recipient address, subject line, and message template.
 
-3. Optionally add attachments to the `attachments/` folder.
+## Sample Output
+An .eml file containing the formatted email content.
 
-4. Run:
-
-```bash
-python main.py
-```
-
-5. Uncomment and configure the `send_email()` call in `main.py` once your SMTP values are set.
+## Screenshots
+- `screenshot.png`

@@ -1,50 +1,32 @@
-# Project 9 – Inventory Management System
+# Inventory Management System
 
-A portfolio-ready inventory system for retail and operations workflows with:
+## Description
+Manages inventory items and stock levels with reporting support for small businesses.
 
-- Product catalog management
-- Stock updates
-- Low-stock alerts
-- Inventory value reports
-- Excel export
-
-## Files
-
-- `main.py` - inventory system script
-- `inventory.db` - SQLite database created automatically
-- `inventory_report.xlsx` - generated inventory report
-- `README.md` - project documentation
-- `screenshots/inventory_summary.png` - generated screenshot
+## Real-World Scenario
+Use this system to track product inventory, stock changes, and generate inventory summaries.
 
 ## Features
+- Add, update, and delete inventory items
+- Export inventory reports
+- Track quantity and category data
 
-- Add new products
-- Update stock quantities
-- Delete products
-- List all products
-- Identify low-stock items
-- Export inventory report to Excel
+## Technologies Used
+- Python 3
+- sqlite3
+- pandas
+- openpyxl
 
-## Usage
-
-1. Install dependencies:
-
+## How to Run
 ```bash
-pip install pandas openpyxl
+python main.py --demo
 ```
 
-2. Run the project:
+## Sample Input
+Product name, SKU, category, stock quantity, and price.
 
-```bash
-python main.py
-```
-
-3. Open `inventory_report.xlsx` to review the generated inventory report.
+## Sample Output
+An Excel inventory report summarizing stock levels.
 
 ## Screenshots
-
-![Inventory Summary](screenshots/inventory_summary.png)
-
-## Notes
-
-This project is meant for small-business inventory operations and can be extended with a web dashboard, barcode scanner, or order module.
+- `inventory_summary.png`
