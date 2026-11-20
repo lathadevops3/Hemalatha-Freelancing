@@ -27,5 +27,7 @@ Bucket name and file path to upload.
 Confirmation of bucket creation or demo output showing expected AWS calls.
 
 ## Screenshots
-- `demo.gif`
-- `screenshot.png`
+
+![Project screenshot](screenshots/screenshot.png)
+
+![Demo GIF](screenshots/demo.gif)

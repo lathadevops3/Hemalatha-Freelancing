@@ -28,4 +28,7 @@ A CSV or demo dataset with sales records and date fields.
 An Excel file containing aggregated sales totals and formatted worksheets.
 
 ## Screenshots
-- `screenshot.png`
+
+![Project screenshot](screenshots/screenshot.png)
+
+![Demo GIF](screenshots/demo.gif)

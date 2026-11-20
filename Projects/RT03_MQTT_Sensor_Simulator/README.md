@@ -27,5 +27,7 @@ An MQTT topic name or demo mode that writes local JSON output.
 Simulated telemetry data saved to a JSON file or sent to MQTT.
 
 ## Screenshots
-- `demo.gif`
-- `screenshot.png`
+
+![Project screenshot](screenshots/screenshot.png)
+
+![Demo GIF](screenshots/demo.gif)

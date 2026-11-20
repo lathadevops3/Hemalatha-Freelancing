@@ -1,4 +1,5 @@
 from pathlib import Path
+import argparse
 
 CATEGORY_EXTENSIONS = {
     "Images": [".jpg", ".jpeg", ".png", ".gif", ".bmp", ".svg", ".webp", ".heic"],
@@ -68,7 +69,33 @@ def organize_folder(folder: Path) -> None:
     print("Organization complete.")
 
 
+def create_demo_folder(folder: Path) -> None:
+    folder.mkdir(parents=True, exist_ok=True)
+    sample_files = {
+        "resume.pdf": b"Sample PDF content",
+        "report.xlsx": b"Sample Excel content",
+        "photo.png": b"PNG demo",
+        "backup.zip": b"ZIP demo",
+        "notes.txt": b"Demo notes",
+        "logo.svg": b"<svg></svg>",
+    }
+    for name, content in sample_files.items():
+        path = folder / name
+        if not path.exists():
+            path.write_bytes(content)
+
+
 def main() -> None:
+    parser = argparse.ArgumentParser(description="Downloads File Organizer")
+    parser.add_argument("--demo", action="store_true", help="Create and organize a temporary demo Downloads folder")
+    args = parser.parse_args()
+
+    if args.demo:
+        target_folder = Path(__file__).parent / "demo_downloads"
+        create_demo_folder(target_folder)
+        organize_folder(target_folder)
+        return
+
     default_downloads = Path.home() / "Downloads"
     print("Downloads Organizer")
     print("Leave blank to organize the default Downloads folder.")

@@ -29,5 +29,7 @@ Employee name, role, department, and hire date details.
 An Excel report summarizing current employees.
 
 ## Screenshots
-- `employee_list.png`
-- `README_PLACEHOLDER.txt`
+
+![Project screenshot](screenshots/screenshot.png)
+
+![Demo GIF](screenshots/demo.gif)

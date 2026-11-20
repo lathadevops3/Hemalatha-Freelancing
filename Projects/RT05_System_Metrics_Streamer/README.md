@@ -29,5 +29,7 @@ A local machine to monitor or demo mode for sample data.
 A stream of system metric snapshots printed or broadcast in real time.
 
 ## Screenshots
-- `demo.gif`
-- `screenshot.png`
+
+![Project screenshot](screenshots/screenshot.png)
+
+![Demo GIF](screenshots/demo.gif)

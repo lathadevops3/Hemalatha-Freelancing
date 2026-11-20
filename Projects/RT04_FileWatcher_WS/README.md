@@ -29,5 +29,7 @@ A watched folder where new files are created or updated.
 Real-time create event notifications streamed to connected clients.
 
 ## Screenshots
-- `demo.gif`
-- `screenshot.png`
+
+![Project screenshot](screenshots/screenshot.png)
+
+![Demo GIF](screenshots/demo.gif)

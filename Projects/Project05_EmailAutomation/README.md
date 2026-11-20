@@ -27,4 +27,7 @@ Recipient address, subject line, and message template.
 An .eml file containing the formatted email content.
 
 ## Screenshots
-- `screenshot.png`
+
+![Project screenshot](screenshots/screenshot.png)
+
+![Demo GIF](screenshots/demo.gif)

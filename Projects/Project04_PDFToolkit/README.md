@@ -28,4 +28,7 @@ A set of PDF files representing invoices, reports, or contracts.
 A merged PDF or extracted page set ready for review.
 
 ## Screenshots
-- `screenshot.png`
+
+![Project screenshot](screenshots/screenshot.png)
+
+![Demo GIF](screenshots/demo.gif)

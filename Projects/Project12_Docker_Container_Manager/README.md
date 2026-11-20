@@ -28,5 +28,7 @@ A container image name and command to run.
 A container list or demo output showing sample lifecycle actions.
 
 ## Screenshots
-- `demo.gif`
-- `screenshot.png`
+
+![Project screenshot](screenshots/screenshot.png)
+
+![Demo GIF](screenshots/demo.gif)

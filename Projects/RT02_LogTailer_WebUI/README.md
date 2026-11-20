@@ -29,5 +29,7 @@ A log file path to watch and a browser session to view updates.
 Live log lines displayed in the browser UI.
 
 ## Screenshots
-- `demo.gif`
-- `screenshot.png`
+
+![Project screenshot](screenshots/screenshot.png)
+
+![Demo GIF](screenshots/demo.gif)

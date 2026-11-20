@@ -28,5 +28,7 @@ A list of pipeline stages with status and duration values.
 A CI/CD report workbook with aggregated metrics.
 
 ## Screenshots
-- `demo.gif`
-- `screenshot.png`
+
+![Project screenshot](screenshots/screenshot.png)
+
+![Demo GIF](screenshots/demo.gif)

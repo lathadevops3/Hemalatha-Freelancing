@@ -28,4 +28,7 @@ A log file with timestamps, severity levels, and event messages.
 A summary CSV and text file with extracted error entries.
 
 ## Screenshots
-- `screenshot.png`
+
+![Project screenshot](screenshots/screenshot.png)
+
+![Demo GIF](screenshots/demo.gif)

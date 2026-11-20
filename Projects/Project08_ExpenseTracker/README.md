@@ -30,4 +30,7 @@ Category, amount, date, and description for each expense.
 An expense report workbook plus a category chart image.
 
 ## Screenshots
-- `expense_dashboard.png`
+
+![Project screenshot](screenshots/screenshot.png)
+
+![Demo GIF](screenshots/demo.gif)

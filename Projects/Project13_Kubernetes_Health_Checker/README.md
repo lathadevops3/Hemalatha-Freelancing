@@ -28,5 +28,7 @@ A Kubernetes context and namespace to inspect.
 A health summary report and pod status output.
 
 ## Screenshots
-- `demo.gif`
-- `screenshot.png`
+
+![Project screenshot](screenshots/screenshot.png)
+
+![Demo GIF](screenshots/demo.gif)

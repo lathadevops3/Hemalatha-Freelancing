@@ -70,14 +70,18 @@ def main():
         return
 
     folder = Path(args.watch)
-    loop = asyncio.get_event_loop()
+
+    if args.demo:
+        demo_actions(folder)
+        print("File watcher demo completed locally.")
+        return
+
+    loop = asyncio.new_event_loop()
+    asyncio.set_event_loop(loop)
     event_handler = Handler(loop)
     observer = Observer()
     observer.schedule(event_handler, str(folder), recursive=False)
     observer.start()
-
-    if args.demo:
-        demo_actions(folder)
 
     start_server = websockets.serve(ws_handler, args.host, args.port)
     loop.run_until_complete(start_server)

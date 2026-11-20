@@ -28,5 +28,7 @@ Chat messages sent from connected WebSocket clients.
 Broadcasted chat logs printed in the console and supported by demo output.
 
 ## Screenshots
-- `demo.gif`
-- `screenshot.png`
+
+![Project screenshot](screenshots/screenshot.png)
+
+![Demo GIF](screenshots/demo.gif)

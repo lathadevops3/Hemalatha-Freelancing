@@ -29,4 +29,7 @@ Product name, SKU, category, stock quantity, and price.
 An Excel inventory report summarizing stock levels.
 
 ## Screenshots
-- `inventory_summary.png`
+
+![Project screenshot](screenshots/screenshot.png)
+
+![Demo GIF](screenshots/demo.gif)

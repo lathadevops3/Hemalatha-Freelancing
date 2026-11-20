@@ -54,13 +54,13 @@ def upload_file(bucket_name, file_path):
 
 def demo():
     print("AWS EC2 & S3 Automation Demo")
-    list_ec2()
-    test_bucket = "demo-bucket-for-portfolio-example"
-    print(f"Creating demo bucket (may fail without creds): {test_bucket}")
-    create_s3_bucket(test_bucket)
+    print("Demo mode: AWS credentials and network calls are intentionally skipped.")
+    print("[SIMULATION] EC2: i-0123456789abcdef0 - running - t3.micro")
+    print("[SIMULATION] S3: bucket demo-bucket-for-portfolio-example - ready")
+
     sample = Path(__file__).parent / "sample_upload.txt"
-    sample.write_text("Sample upload file", encoding="utf-8")
-    upload_file(test_bucket, sample)
+    sample.write_text("Sample upload file for AWS S3 demo", encoding="utf-8")
+    print(f"[SIMULATION] Uploaded {sample.name} -> s3://demo-bucket-for-portfolio-example/{sample.name}")
 
 
 def main():

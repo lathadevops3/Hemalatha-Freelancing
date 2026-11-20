@@ -60,11 +60,17 @@ def main():
     app['log_path'] = Path(__file__).parent / 'application.log'
     app.router.add_get('/ws', websocket_handler)
 
-    loop = asyncio.get_event_loop()
-    loop.create_task(tail_file(app['log_path'], app))
     if args.demo:
-        loop.create_task(demo(app))
+        async def run_demo():
+            await demo(app)
+            print("Demo complete. Open http://127.0.0.1:8080/ws with a WebSocket client.")
+        asyncio.run(run_demo())
+        print("Log tailer demo completed locally.")
+        return
 
+    loop = asyncio.new_event_loop()
+    asyncio.set_event_loop(loop)
+    loop.create_task(tail_file(app['log_path'], app))
     web.run_app(app, host=args.host, port=args.port)
 
 

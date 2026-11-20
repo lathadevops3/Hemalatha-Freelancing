@@ -28,4 +28,7 @@ Run the script against a download folder or use demo mode to simulate files.
 Files are moved into categorized folders such as Documents, Images, Archives, and Videos.
 
 ## Screenshots
-- `screenshot.png`
+
+![Project screenshot](screenshots/screenshot.png)
+
+![Demo GIF](screenshots/demo.gif)

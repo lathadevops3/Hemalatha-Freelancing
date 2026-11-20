@@ -28,5 +28,7 @@ A log file containing error and warning entries.
 An alert summary text file and an .eml email draft.
 
 ## Screenshots
-- `demo.gif`
-- `screenshot.png`
+
+![Project screenshot](screenshots/screenshot.png)
+
+![Demo GIF](screenshots/demo.gif)

@@ -29,4 +29,7 @@ A local environment with AWS/Docker/Kubernetes or demo fallback simulated status
 A dashboard status report and alert summary text file.
 
 ## Screenshots
-- `dashboard_status.png`
+
+![Project screenshot](screenshots/screenshot.png)
+
+![Demo GIF](screenshots/demo.gif)

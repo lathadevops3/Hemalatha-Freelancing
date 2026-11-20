@@ -27,4 +27,7 @@ AWS credentials and a target bucket name for file upload.
 A log of EC2/S3 operations or a demo output file when credentials are unavailable.
 
 ## Screenshots
-- `screenshot.png`
+
+![Project screenshot](screenshots/screenshot.png)
+
+![Demo GIF](screenshots/demo.gif)
